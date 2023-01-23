@@ -1,0 +1,45 @@
+:root{
+    --background-card: hsl(0, 0%, 100%);
+    --background-body: hsl(220, 15%, 55%);
+    --firsttext-color: hsl(218, 44%, 22%);
+    --lasttext-color: hsl(220, 15%, 55%);
+    --fuente: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--background-body);
+}
+.container{
+    width: 100%;
+}
+.card{
+    width: 250px;
+    background-color: var(--background-card);
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.qr-img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--fuente);
+}
+.first-text{
+    color: var(--firsttext-color);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.last-text{
+    color: var(--lasttext-color);
+    font-size: 15px;
+}
